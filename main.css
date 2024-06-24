@@ -6,7 +6,7 @@
   font-family: arial;
 }
 
-@media (max-width: 800px) {
+@media all (max-width: 800px) {
   .section {
     display: flex;
     flex-direction: column;
