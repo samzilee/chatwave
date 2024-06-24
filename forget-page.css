@@ -1,0 +1,103 @@
+body {
+    background-image: url(/cool_pixel_art_background-wallpaper-1920x1080.jpg);
+    font-family: arial;
+    height: 500px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    color: white;
+    background-color: rgb(47, 76, 114);
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.form {
+    background-color: rgb(18, 53, 93);
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.input1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.icon {
+    background-color: rgb(47, 76, 114);
+    width: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.person-img {
+    width: 17px;
+    margin-right: 3px;
+}
+.email {
+    margin-left: -3px;
+    padding-top: 5px;
+    padding-bottom: 6px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(220, 215, 215);
+    height: 20px;
+    width: 200px;
+    padding-left: 7px;
+}
+.email::placeholder {
+    color: rgb(177, 173, 173);
+}
+.text {
+    color: rgb(127, 164, 196);
+    font-size: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.send-button { 
+    display: grid;
+    justify-content: center;
+}
+button {
+    width: 240px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: rgb(35, 110, 102);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s;
+}
+button:active {
+    color:rgb(35, 110, 102);
+    background-color: white;
+    transform: scale(1.1);
+}
+.signup {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    color: rgb(136, 173, 223);
+}
